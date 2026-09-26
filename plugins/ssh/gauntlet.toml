@@ -1,0 +1,16 @@
+[[entrypoint]]
+id = 'ssh'
+name = 'SSH launcher'
+path = 'src/ssh.tsx'
+type = 'entrypoint-generator'
+description = 'Copy ssh commands for your hosts'
+
+[[entrypoint.preferences]]
+id = 'hosts'
+name = 'Hosts'
+type = 'string'
+default = 'archbox,proxmox'
+description = 'Comma-separated ssh hosts'
+
+[permissions]
+clipboard = ["write"]

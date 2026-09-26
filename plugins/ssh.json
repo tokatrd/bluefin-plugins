@@ -1,1 +1,0 @@
-{"name": "Homelab SSH", "version": "0.1.0", "description": "One-key SSH into homelab hosts", "entry": "ssh.js", "hosts": ["archbox", "proxmox"]}

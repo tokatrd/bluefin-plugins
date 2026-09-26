@@ -1,0 +1,9 @@
+[[entrypoint]]
+id = 'clipboard'
+name = 'Clipboard tools'
+path = 'src/clipboard.tsx'
+type = 'view'
+description = 'Read, write and clear the clipboard'
+
+[permissions]
+clipboard = ["read", "write", "clear"]

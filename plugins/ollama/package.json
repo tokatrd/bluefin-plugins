@@ -1,0 +1,1 @@
+{"dependencies": {"@project-gauntlet/api": "*", "react": "^18"}, "name": "bluefin-ollama", "private": true, "version": "0.1.0"}

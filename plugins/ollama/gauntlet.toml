@@ -1,0 +1,10 @@
+[[entrypoint]]
+id = 'ollama'
+name = 'Ollama prompt'
+path = 'src/ollama.tsx'
+type = 'view'
+description = 'Ask your local Ollama model'
+
+[permissions]
+clipboard = ["write"]
+network = ["localhost", "127.0.0.1"]
