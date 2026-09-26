@@ -1,0 +1,1 @@
+{"name": "Local Ollama Runner", "version": "0.1.0", "description": "Prompt local Ollama from launcher; degrades gracefully offline", "entry": "ollama.js", "endpoint": "http://localhost:11434"}
